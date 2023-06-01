@@ -140,3 +140,52 @@ defining a variable:
 // true && false -> false
 // false && true -> false
 // false && false -> false
+
+
+// --------------------------------------
+/* Falsy values */
+// A falsy value is considered as 'false' when converted to a boolean
+// falsy values:
+//     -> undefined
+//     -> null
+//     -> NaN
+//     -> 0
+//     -> ""
+//     -> false
+
+
+// --------------------------------------
+/* Truthy values */
+// A truthy value is considered as 'true' when converted to a boolean
+// Truthy values:
+//     -> 10
+//     -> 3.14
+//     -> "Frontend Simplified"
+//     -> "false"
+//     -> "0"
+//     -> []
+//     -> {}
+
+// example-1
+// if ("false") {
+//     console.log('print the receipt');
+// }
+// output:
+// print the receipt
+
+// example-2
+// let val = ""
+// if (val) {
+//     console.log(true);
+// }
+// else {
+//     console.log(false);
+// }
+
+// --------------------------------------
+/* Ternary opreator */
+// A short hand for if else statements
+
+// example-1
+// let hot = true
+// hot ? console.log('weather is hot outside') : console.log('weather is cold outside');
