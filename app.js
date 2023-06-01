@@ -189,3 +189,38 @@ defining a variable:
 // example-1
 // let hot = true
 // hot ? console.log('weather is hot outside') : console.log('weather is cold outside');
+
+
+// --------------------------------------
+/* Loops
+    -> for loop
+    -> while loop
+    -> do while loop
+*/
+
+// let count = 1
+// while (count <= 10) {
+//     console.log(count)
+//     count += 1
+// }
+
+// for (let i = 1; i <= 20; i++) {
+//     console.log(i)
+// }
+
+// let str = 'Frontend Simplified'
+// for (let i = 0; i < str.length; i++) {
+//     console.log(str[i]);
+// }
+
+
+// --------------------------------------
+/* Functions */
+
+// function greetPerson(name) {
+//     console.log(`Welcome to Frontend Simplified, ${name}`);
+// }
+
+// greetPerson('Kishan')
+// greetPerson('Varun')
+// greetPerson('Muskan')
