@@ -215,7 +215,10 @@ defining a variable:
 
 
 // --------------------------------------
-/* Functions */
+/* Functions declaration
+    -> using function keyword
+    -> using arrow function
+*/
 
 // function greetPerson(name) {
 //     console.log(`Welcome to Frontend Simplified, ${name}`);
@@ -224,3 +227,27 @@ defining a variable:
 // greetPerson('Kishan')
 // greetPerson('Varun')
 // greetPerson('Muskan')
+
+// Function returning a value
+
+// function factorial(num) {
+//     ans = 1
+//     for (let i = 1; i <= num; i++) {
+//         ans *= i
+//     }
+//     return ans
+// }
+
+// console.log(factorial(2));
+// console.log(factorial(3));
+// console.log(factorial(4));
+
+// Arrow function
+
+// const greet = (name) => {
+//     console.log(`Hey! welcome to FES, ${name}`);
+// }
+
+// greet('Kishan')
+// greet('Varun')
+// greet('Muskan')
