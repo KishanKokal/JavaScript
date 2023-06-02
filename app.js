@@ -362,6 +362,32 @@ defining a variable:
 // }
 
 // Creating dark theme toggle
-function toggleDark() {
-    document.querySelector('body').classList.toggle('dark-theme')
-}
+// function toggleDark() {
+//     document.querySelector('body').classList.toggle('dark-theme')
+// }
+
+
+// --------------------------------------
+/* Promises
+    -> then
+    -> async / await
+*/
+
+fetch("https://jsonplaceholder.typicode.com/users/1")
+
+
+// using then
+// fetch("https://jsonplaceholder.typicode.com/users/1").then(response => {
+//     return response.json()
+// }).then(data => {
+//     console.log(data);
+// })
+
+// using async / await
+// async function getData() {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/users/1")
+//     const data = await response.json()
+//     console.log(data)
+// }
+
+// getData()
