@@ -309,3 +309,59 @@ defining a variable:
 // }
 
 // console.log(newArr);
+
+
+// --------------------------------------
+/* Objects */
+
+// let users = [
+//     {
+//         username: 'Kishan',
+//         email: 'kishan@gmail.com',
+//         subscriptionStatus: "VIP plus",
+//         discordId: 'kishankokal'
+//     },
+//     {
+//         username: 'Varun',
+//         email: 'varun@gmail.com',
+//         subscriptionStatus: "VIP",
+//         discordId: 'varun'
+//     }
+// ]
+
+// console.log(users[0].username, users[0].email, users[0].subscriptionStatus, users[0].discordId);
+
+
+// --------------------------------------
+/* DOM - Document Object Model */
+// The DOM allows us to access and change the styling and content of elements on our website
+
+// first way of accessing an element
+// console.log(document.querySelector('#title'));
+
+// second way of accessing an element
+// console.log(document.getElementById('title'));
+
+// Changing the HTML
+// document.querySelector('#title').innerHTML = 'Frontend Simplified'
+
+// Changing the CSS
+// document.querySelector('#title').style.color = 'red'
+// document.querySelector('#title').style.fontSize = '64px'
+
+// Adding a button to change the title color
+// i = 0
+// function changeTitleColor() {
+//     if (i%2 == 0) {
+//         document.querySelector('#title').style.color = 'red'
+//     }
+//     else {
+//         document.querySelector('#title').style.color = 'black'
+//     }
+//     i += 1
+// }
+
+// Creating dark theme toggle
+function toggleDark() {
+    document.querySelector('body').classList.toggle('dark-theme')
+}
