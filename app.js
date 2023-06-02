@@ -251,3 +251,61 @@ defining a variable:
 // greet('Kishan')
 // greet('Varun')
 // greet('Muskan')
+
+
+// --------------------------------------
+/* Array and its methods */
+
+// let arr = [20, 30, 40, 50, 100]
+
+// arr.push method, allows you to push an element to the end of the array (same as arr.append() in python)
+// console.log(arr);
+// arr.push(2)
+// console.log(arr);
+
+// arr.filter uses a callback function, the syntax is very similar to the arrow function
+// let newArr = arr.filter((element) => {
+//     if (element < 50) {
+//         return true
+//     }
+// })
+
+// console.log(arr)
+// console.log(newArr)
+
+// the above code can also be written as
+// let newArr = arr.filter(element => element < 50)
+// console.log(newArr)
+
+
+// example-1
+// filter out all fail elements in an array
+
+// arr = ['A', 'A+', 'FAIL', 'B', 'B+', 'FAIL']
+// console.log(arr.filter(element => element != 'FAIL'));
+
+
+// arr.map()
+// convert all the array elements (represented in dollars) to cents
+
+// arr = [1, 4, 9, 16]
+
+// newArr = arr.map((element) => {
+//     return element * 100
+// })
+
+// the above method can also be written in a single line
+
+// newArr = arr.map(element => element * 100)
+// console.log(newArr);
+
+// converting dollars into cents without using the map method
+
+// arr = [1, 4, 9, 16]
+// newArr = []
+
+// for (let i = 0; i < arr.length; i++) {
+//     newArr.push(arr[i] * 100)
+// }
+
+// console.log(newArr);
